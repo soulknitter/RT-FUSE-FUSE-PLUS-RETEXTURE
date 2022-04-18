@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RT Fuse and Fuse Plus - Retexture</name>
+  <author>Soul</author>
+  <supportedVersions>
+	  <li>1.3</li>
+  </supportedVersions>
+  <packageId>Soul.rtfuseplus.retexture</packageId>
+  <description>Retexture for RT Fuse and Fuse Plus. Recolors Industrial Circuit Breaker and Glitterworld City Circuit Breaker glow to blue, to better fit this mod and BlueLizard's Fuse Plus - Retexture</description>
+  	<loadAfter>
+		<li>neceros.fuseplus</li>
+	</loadAfter>
+</ModMetaData>

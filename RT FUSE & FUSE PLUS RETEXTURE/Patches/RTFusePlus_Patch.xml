@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fuse Plus</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="FPIndustrialBreaker"]/comps/li/glowColor</xpath>
+						<value>
+              <glowColor>(60,60,217,0)</glowColor>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="FPGWBreaker"]/comps/li/glowColor</xpath>
+          <value>
+            <glowColor>(60,60,217,0)</glowColor>
+          </value>
+        </li>
+        
+      </operations>
+    </match>
+  </Operation>
+</Patch>
